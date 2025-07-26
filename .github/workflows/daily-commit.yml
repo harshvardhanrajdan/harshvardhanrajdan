@@ -1,0 +1,28 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC (5:30 AM IST)
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update file with Harshvardhan Rajdan status
+        run: |
+          echo "Harshvardhan Rajdan is alive: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> daily_update.txt
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add daily_update.txt
+          git commit -m "Daily update: Harshvardhan Rajdan is alive for $(date '+%Y-%m-%d %H:%M:%S %Z')" || echo "No changes to commit"
+          git push
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push origin main
