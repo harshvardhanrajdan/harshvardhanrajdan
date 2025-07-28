@@ -8,11 +8,14 @@ on:
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # <--- Add this line to grant write permissions to the GITHUB_TOKEN
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           # This is crucial: Use the GITHUB_TOKEN for write permissions
+          # The 'permissions' block above ensures this token has write access.
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update file with Harshvardhan Rajdan status and commit
