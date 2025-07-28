@@ -11,18 +11,32 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # This is crucial: Use the GITHUB_TOKEN for write permissions
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update file with Harshvardhan Rajdan status
+      - name: Update file with Harshvardhan Rajdan status and commit
         run: |
-          echo "Harshvardhan Rajdan is alive: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> daily_update.txt
+          # Define the current timestamp for consistency
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S %Z')
+
+          # Append the status to the daily_update.txt file
+          echo "Harshvardhan Rajdan is alive: $TIMESTAMP" >> daily_update.txt
+
+          # Configure Git user for the commit
           git config --global user.name "harshvardhanrajdan"
           git config --global user.email "harshvardhanrajdan@gmail.com"
-          git add daily_update.txt
-          git commit -m "Daily update: Harshvardhan Rajdan is alive for $(date '+%Y-%m-%d %H:%M:%S %Z')" || echo "No changes to commit"
-          git push
 
-      - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git push origin main
+          # Stage the changes
+          git add daily_update.txt
+
+          # Attempt to commit. The '|| true' ensures the step doesn't fail
+          # if there are no changes to commit (e.g., if the file wasn't modified).
+          # The 'git diff-index --quiet HEAD' checks if there are any pending changes.
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Daily update: Harshvardhan Rajdan is alive for $TIMESTAMP"
+            # Push the changes to the 'main' branch
+            git push origin main
+          else
+            echo "No changes to commit. Skipping push."
+          fi
