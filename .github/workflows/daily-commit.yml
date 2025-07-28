@@ -15,8 +15,8 @@ jobs:
       - name: Update file with Harshvardhan Rajdan status
         run: |
           echo "Harshvardhan Rajdan is alive: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> daily_update.txt
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "harshvardhanrajdan"
+          git config --global user.email "harshvardhanrajdan@gmail.com"
           git add daily_update.txt
           git commit -m "Daily update: Harshvardhan Rajdan is alive for $(date '+%Y-%m-%d %H:%M:%S %Z')" || echo "No changes to commit"
           git push
