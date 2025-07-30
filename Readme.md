@@ -2,12 +2,12 @@
 	<br>
 	<img src="https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true" width="200" height="200">
 </div>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=harshvardhanrajdan&style=flat-square&color=blue" alt="Profile Views" />
-</p>
-
 <h1 align="center">Hi 👋, I'm Harshvardhan Rajdan</h1>
+
+<div align="center" style="display: flex; justify-content: center; margin: 10px 0;">
+  <img src="https://komarev.com/ghpvc/?username=harshvardhanrajdan&style=flat-square&color=blue" alt="Profile Views" />
+</div>
+
 <h3 align="center">Solving problems at scale</h3>
 
 <div align="center" style="display: flex; flex-direction: column; align-items: center;">
