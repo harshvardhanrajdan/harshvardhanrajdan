@@ -35,6 +35,5 @@
   
   <div style="display: flex; justify-content: center; gap: 20px; width: 100%;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshvardhanrajdan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" style="width: 48%; max-width: 500px;" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=harshvardhanrajdan&theme=react-dark&hide_border=true&area=true&custom_title=This%20Month's%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=58a6ff&area_opacity=0.3" alt="Activity Graph" style="width: 48%; max-width: 500px;" />
   </div>
 </div>
