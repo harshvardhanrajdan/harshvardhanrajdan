@@ -35,12 +35,14 @@
 
 <br>
 
-<div align="center">
-  <div style="display: flex; justify-content: center; gap: 20px; width: 100%;">
+<div align="center" style="margin: 0px 20px; padding: 30px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05);">
+  
+  <div style="display: flex; justify-content: center; gap: 20px; width: 100%; margin-bottom: 15px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshvardhanrajdan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" style="width: 48%; max-width: 500px;" />
   </div>
   <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; width: 100%;">
-    <img src="https://github-readme-stats.vercel.app/api?username=harshvardhanrajdan&show_icons=true&locale=en&theme=blue-green" alt="GitHub Stats" style="width: 48%; max-width: 500px;" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshvardhanrajdan&theme=radical" alt="GitHub Streak" style="width: 48%; max-width: 500px;" />
+    <img src="https://github-readme-stats.vercel.app/api?username=harshvardhanrajdan&show_icons=true&locale=en&theme=blue-green" alt="GitHub Stats" style="width: 50%; max-width: 500px;" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshvardhanrajdan&theme=radical" alt="GitHub Streak" style="width: 50%; max-width: 500px;" />
   </div>
+
 </div>
