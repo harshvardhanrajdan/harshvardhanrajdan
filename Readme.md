@@ -3,6 +3,10 @@
 	<img src="https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true" width="200" height="200">
 </div>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=harshvardhanrajdan&style=flat-square&color=blue" alt="Profile Views" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Harshvardhan Rajdan</h1>
 <h3 align="center">Solving problems at scale</h3>
 
