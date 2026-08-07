@@ -19,7 +19,7 @@
 <!--END_SECTION:waka-->
 
 <p align="center">
-  <img width="450em" src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs?username=harshvardhanrajdan&layout=compact&langs_count=10&include_all_commits=true&count_private=true&hide_border=true&theme=radical" alt="Top Languages" />
+  <img width="450em" src="./top-langs.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
