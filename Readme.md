@@ -10,7 +10,6 @@
 
 - 🌱 I'm passionate about **building scalable solutions**
 - 👯 I'm looking to collaborate on **innovative projects**
-- 👨‍💻 Visit my website: [https://bento.me/harshvardhanrajdan](https://bento.me/harshvardhanrajdan)
 - 📫 How to reach me **harshvardhanrajdan@proton.me**
 
 </div>
