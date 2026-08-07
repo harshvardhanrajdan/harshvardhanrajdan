@@ -1,0 +1,51 @@
+# Generates github-metrics.svg (private repos when METRICS_TOKEN has repo scope)
+# Docs: https://github.com/lowlighter/metrics/blob/master/action.yml
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Prefer METRICS_TOKEN (classic PAT: repo + read:user) for private stats.
+          # Falls back to GITHUB_TOKEN (public only).
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: harshvardhanrajdan
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          config_output: github-metrics.svg
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update github-metrics.svg"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_lines: yes
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_stargazers: yes
+          # Pull private contribution data when token has access
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
