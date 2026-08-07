@@ -18,6 +18,11 @@
 
 <!--END_SECTION:waka-->
 
+<h3 align="center">Projects</h3>
+<p align="center">
+<a href="https://github.com/formidablae">formidablae</a>
+</p>
+
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://twitter.com/harsharajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="harshvrdnrajdan" height="30" width="40" /></a>
