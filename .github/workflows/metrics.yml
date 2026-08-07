@@ -1,5 +1,3 @@
-# Generates github-metrics.svg (private repos when METRICS_TOKEN has repo scope)
-# Docs: https://github.com/lowlighter/metrics/blob/master/action.yml
 name: Metrics
 
 on:
@@ -20,8 +18,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Prefer METRICS_TOKEN (classic PAT: repo + read:user) for private stats.
-          # Falls back to GITHUB_TOKEN (public only).
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: harshvardhanrajdan
           template: classic
@@ -45,7 +41,6 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_stargazers: yes
-          # Pull private contribution data when token has access
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
