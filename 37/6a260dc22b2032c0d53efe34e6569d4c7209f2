@@ -1,0 +1,20 @@
+.github/workflows/top-langs.yml
+  h_5070e07894009d 1-30
+Readme.md
+  h_5070e07894009d 22
+scripts/generate_top_langs.py
+  h_5070e07894009d 1-112
+top-langs.svg
+  h_5070e07894009d 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "376a260dc22b2032c0d53efe34e6569d4c7209f2",
+  "prompts": {},
+  "humans": {
+    "h_5070e07894009d": {
+      "author": "harshvardhanrajdan <43501395+harshvardhanrajdan@users.noreply.github.com>"
+    }
+  }
+}
