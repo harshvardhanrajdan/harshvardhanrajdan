@@ -1,32 +1,44 @@
 <h1 align="center">Hi 👋, I'm Harshvardhan Rajdan</h1>
 
-<div align="center" style="display: flex; justify-content: center; margin: 10px 0;">
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=harshvardhanrajdan&style=flat-square&color=blue" alt="Profile Views" />
 </div>
 
-<h3 align="center">Solving problems at Scale</h3>
-
-<div align="center" style="display: flex; flex-direction: column; align-items: center;">
-
-- 🌱 I'm passionate about **building scalable solutions**
-- 👯 I'm looking to collaborate on **innovative projects**
-- 📫 How to reach me **harshvardhanrajdan@proton.me**
-
-</div>
-
-<!--START_SECTION:waka-->
-
-<!--END_SECTION:waka-->
-
-<h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://twitter.com/harsharajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="harshvrdnrajdan" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/harshvardhanrajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="harshvardhanrajdan" height="30" width="40" /></a>
-<a href="https://instagram.com/harshvardhanrajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="harshvardhanrajdan" height="30" width="40" /></a>
+  Solving problems at Scale · Earth · <a href="https://github.com/augurysys">@augurysys</a>
 </p>
 
-<br>
+<p align="center">
+  🌱 Building scalable solutions · 👯 Open to innovative collabs · 📫 <a href="mailto:harshvardhanrajdan@proton.me">harshvardhanrajdan@proton.me</a>
+</p>
 
-<div align="center" style="margin: 0px 20px; padding: 30px; border-radius: 10px; background-color: rgba(255, 255, 255, 0.05);">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=harshvardhanrajdan&theme=radical" alt="GitHub Streak" style="width: 50%; max-width: 500px;" />
-</div>
+<hr>
+
+<p align="center">
+  <img width="450em" src="https://github-readme-stats.vercel.app/api?username=harshvardhanrajdan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=dark" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img width="450em" src="https://streak-stats.demolab.com/?user=harshvardhanrajdan&hide_border=true&theme=dark" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="450em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshvardhanrajdan&layout=compact&custom_title=Most%20used%20languages&langs_count=10&include_all_commits=true&hide_progress=false&hide_border=true&theme=dark" alt="Top Languages" />
+</p>
+
+## 3D Contributions
+
+<p align="center">
+  <a href="./profile-3d-contrib/profile-night-green.svg">
+    <img width="900em" src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" />
+  </a>
+</p>
+
+## Connect
+
+<p align="center">
+  <a href="https://twitter.com/harsharajdan" target="_blank"><img src="https://img.shields.io/badge/X-@harsharajdan-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://linkedin.com/in/harshvardhanrajdan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-harshvardhanrajdan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/harshvardhanrajdan" target="_blank"><img src="https://img.shields.io/badge/Instagram-harshvardhanrajdan-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:harshvardhanrajdan@proton.me"><img src="https://img.shields.io/badge/Email-proton.me-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" /></a>
+</p>
