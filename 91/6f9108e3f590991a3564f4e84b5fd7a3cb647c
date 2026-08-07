@@ -1,0 +1,14 @@
+Readme.md
+  h_5070e07894009d 3,7,9-13,15-19,22,25-27,29,31-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "916f9108e3f590991a3564f4e84b5fd7a3cb647c",
+  "prompts": {},
+  "humans": {
+    "h_5070e07894009d": {
+      "author": "harshvardhanrajdan <43501395+harshvardhanrajdan@users.noreply.github.com>"
+    }
+  }
+}
