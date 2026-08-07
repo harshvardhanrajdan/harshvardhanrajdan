@@ -20,7 +20,7 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://twitter.com/harshrajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="harshvrdnrajdan" height="30" width="40" /></a>
+<a href="https://twitter.com/harsharajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="harshvrdnrajdan" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/harshvardhanrajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="harshvardhanrajdan" height="30" width="40" /></a>
 <a href="https://instagram.com/harshvardhanrajdan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="harshvardhanrajdan" height="30" width="40" /></a>
 </p>
