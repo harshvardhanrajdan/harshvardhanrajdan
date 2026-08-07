@@ -14,27 +14,8 @@
 
 <hr>
 
-## Stats
-
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=harshvardhanrajdan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshvardhanrajdan&layout=compact&langs_count=8&include_all_commits=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img width="495em" src="https://streak-stats.demolab.com/?user=harshvardhanrajdan&hide_border=true&theme=tokyonight&background=0d1117&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff" alt="GitHub Streak" />
-</p>
-
-## Metrics
-
-<p align="center">
-  <img width="100%" src="./github-metrics.svg" alt="GitHub Metrics" />
-</p>
-
-## Contribution graph
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=harshvardhanrajdan&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph" />
+  <img width="100%" src="./github-metrics.svg" alt="Languages and contributions" />
 </p>
 
 ## Connect
