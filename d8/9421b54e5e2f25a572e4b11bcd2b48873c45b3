@@ -1,0 +1,20 @@
+.github/workflows/top-langs.yml
+  h_5070e07894009d 23-27,32-33
+Readme.md
+  h_5070e07894009d 30
+activity-graph.svg
+  h_5070e07894009d 1-14
+scripts/generate_activity_graph.py
+  h_5070e07894009d 1-194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "d89421b54e5e2f25a572e4b11bcd2b48873c45b3",
+  "prompts": {},
+  "humans": {
+    "h_5070e07894009d": {
+      "author": "harshvardhanrajdan <43501395+harshvardhanrajdan@users.noreply.github.com>"
+    }
+  }
+}
