@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=harshvardhanrajdan&theme=radical&area=true&hide_border=true&custom_title=Contribution%20graph" alt="Contribution graph" />
+  <img width="100%" src="./activity-graph.svg" alt="Contribution graph" />
 </p>
 
 <h3 align="center">Connect with me:</h3>
